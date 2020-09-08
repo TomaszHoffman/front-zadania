@@ -1,61 +1,55 @@
 <section>
-    <link rel="stylesheet" type="css/txt" href="style.css"/>
-    <main>
-      <a href="http://google.com">Google</a>
-      <a href="http://twitter.com" target="_blank">Twitter</a>
-  
-      <ul>
-        <li>Lorem</li>
-        <li>ipsum</li>
-        <li>dolor</li>
-        
-        <ul>
-          <li>sit</li>
-          <li>
-            <ol>
-              <li>amet</li>
-              <li>
-                <p>
-                  consectetur
-                  <span>adipiscing</span>
-                  <b>elit</b>
-                </p>
-              </li>
-            </ol>
-          </li>
-          <li>
-            <a>no href :(</a>
-          </li>
-          <li>id</li>
-        </ul>
-      </ul>   
-      
-      <p>Lorem ipsum dolor sit amet</p>
-  
-      <a>no href :(</a>
-  
-      <button disabled="true" name="button" type="button">
-        I'm disabled :(
-      </button>
-    </main>
-  </section>
-  
-  <div>
-    <p>Lorem ipsum dolor sit amet</p>
     
-    <ol>
-      <li>Lorem</li>
-      <li>ipsum</li>
-      <li>dolor</li>
-      <li>
-        sit
-        <a>no href :(</a>
-      </li>
-    </ol>
-    
-    <form>
-      <button id="form-submit-button" name="button" type="submit">
-        I'm not disabled :)
-      </button>
-    </form>
-  </div>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <main class="container">
+      <button class="hamburger"></button>
+    <a class="container__link" href="http://google.com">Google</a>
+    <a class="container__link" href="http://twitter.com" target="_blank">Twitter</a>
+    <ul class="container__list">
+      <li class="container__list-item">Lorem</li>
+      <li class="container__list-item">ipsum</li>
+      <li class="container__list-item">dolor</li>
+      <ul class="container__list container__list--mod">
+        <li class="container__list-item">sit</li>
+        <li class="container__list-item">
+          <ol class="container__list-item container__list-item--font">
+            <li class="container__list-item">amet</li>
+            <li class="container__list-item">
+              <p class="list__paragraph">consectetur<span>adipiscing</span>
+                <b>elit</b>
+              </p>
+            </li>
+          </ol>
+        </li>
+        <li class="container__list-item">
+          <a class="container__link container__link--disabled">no href :(</a>
+        </li>
+        <li class="container__list-item">id</li>
+      </ul>
+    </ul>
+
+    <p class="paragraph">Lorem ipsum dolor sit amet</p>
+    <a class="container__link container__link--disabled">no href :(</a>
+    <button class="button" disabled="true" name="button" type="button">
+      I'm disabled :(
+    </button>
+  </main>
+</section>
+
+<div class="container">
+  <p class="container__paragraph">Lorem ipsum dolor sit amet</p>
+
+  <ol class="container__list-item container__list-item--mod">
+    <li class="container__list-item">Lorem</li>
+    <li class="container__list-item">ipsum</li>
+    <li class="container__list-item">dolor</li>
+    <li class="container__link-item">sit<a class="container__link container__link--disabled">no href :(</a>
+    </li>
+  </ol>
+
+  <form>
+    <button class="button" type="submit">
+      I'm not disabled :)
+    </button>
+  </form>
+</div>

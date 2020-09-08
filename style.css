@@ -1,8 +1,22 @@
 /* BEM methodology*/
-/* Zadanie 1, 2 */
+/* Zadanie 1, 2  
+
+1.Nadaj każdemu z elementów klasę zgodną z wybraną przez Ciebie metodologią
+(napisz jaka to metodologia 
+w komentarzu na samej górze kodu CSS).
+2.Nadaj każdemu elementowi ​<a>​, który nie jest dzieckiem elementu ​<li>​ 
+kolor różowy z przezroczystością ustawioną na 75% */
 
 .container__link{
     color: pink;
     opacity: 75%;
     
+}
+
+/* zadanie 3  Nadaj każdemu elementowi ​<a>​ style, które będą aktywne jedynie w momenciekiedy najedziemy na element kursorem. 
+Zmień grubość tekstu oraz przesuń go o4px w prawo, całe przejście powinno trwać 0.4s.*/
+.container__link:hover{
+  font-weight: bold;
+  padding-left: 4px;
+  transition: 0.4s;
 }

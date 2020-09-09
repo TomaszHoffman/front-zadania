@@ -15,6 +15,8 @@ kolor różowy z przezroczystością ustawioną na 75% */
 
 /* zadanie 3  Nadaj każdemu elementowi ​<a>​ style, które będą aktywne jedynie w momenciekiedy najedziemy na element kursorem. 
 Zmień grubość tekstu oraz przesuń go o4px w prawo, całe przejście powinno trwać 0.4s.*/
+
+
 .container__link:hover{
   font-weight: bold;
   padding-left: 4px;

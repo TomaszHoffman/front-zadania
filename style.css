@@ -1,4 +1,16 @@
+/* BEM methodology*/
+/* Zadanie 1, 2  
+1.Nadaj każdemu z elementów klasę zgodną z wybraną przez Ciebie metodologią
+(napisz jaka to metodologia 
+w komentarzu na samej górze kodu CSS).
+2.Nadaj każdemu elementowi ​<a>​, który nie jest dzieckiem elementu ​<li>​ 
+kolor różowy z przezroczystością ustawioną na 75% */
+
+
+
+
 .container__link{
     color: pink;
     opacity: 75%;
 }
+

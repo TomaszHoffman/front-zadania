@@ -22,3 +22,11 @@ Zmień grubość tekstu oraz przesuń go o4px w prawo, całe przejście powinno 
   padding-left: 4px;
   transition: 0.4s;
 }
+
+
+
+.container__link{
+    color: pink;
+    opacity: 75%;
+}
+

@@ -30,3 +30,13 @@ Zmień grubość tekstu oraz przesuń go o4px w prawo, całe przejście powinno 
     opacity: 75%;
 }
 
+/* zadadanie 4 Każdemu elementowi <a> bez atrybutu href zmień 
+kursor (który pojawia się w momencie najechania na element) na 
+myślny kursor dla zablokowanego elementu (Hint: właściwość 
+będzie miała wartość: not-allowed). */
+
+.container__link--disabled{
+    cursor: not-allowed;
+    
+  }
+  

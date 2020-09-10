@@ -39,4 +39,10 @@ będzie miała wartość: not-allowed). */
     cursor: not-allowed;
     
   }
+/*Nadaj każdemu elementowi <ol>, który jest dzieckiem elementu
+ <ul> styl zwiększający wielkość tekstu do 18px. */
+ 
+ .container__list-item--font{
+    font-size: 18px;
+  }
   

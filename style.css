@@ -39,10 +39,19 @@ będzie miała wartość: not-allowed). */
     cursor: not-allowed;
     
   }
-/*Nadaj każdemu elementowi <ol>, który jest dzieckiem elementu
+/* zadanie 5 Nadaj każdemu elementowi <ol>, który jest dzieckiem elementu
  <ul> styl zwiększający wielkość tekstu do 18px. */
  
  .container__list-item--font{
     font-size: 18px;
+  }
+  
+  /*Nadaj każdemu elementowi <p>, 
+  który następuje bezpośrednio po elemencie <ul> 
+  marginesy lewy oraz dolny i ustaw ich wartość na 10px.*/
+
+  .link__paragraph{
+    margin-left: 10px;
+    margin-bottom: 10px;
   }
   

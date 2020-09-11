@@ -50,7 +50,7 @@ będzie miała wartość: not-allowed). */
   który następuje bezpośrednio po elemencie <ul> 
   marginesy lewy oraz dolny i ustaw ich wartość na 10px.*/
 
-  .link__paragraph{
+.paragraph{
     margin-left: 10px;
     margin-bottom: 10px;
   }
@@ -60,7 +60,20 @@ będzie miała wartość: not-allowed). */
 
   .container__list--mod{
   list-style: none;
-  
-  
 }
   
+/* Nadaj każdemu elementowi <li>, który jest 2 w kolejności dzieckiem style, które sprawią, że:
+Znajdzie się 20px od prawej krawędzi okna
+Utrzyma tą pozycję niezależnie od pozycji scrolla
+Każdy następny będzie 10px niżej od poprzedniego
+Pierwszy element niech znajdzie się 10px od górnej krawędzi okna.*/
+
+.list_item:nth-child(2){
+    position: absolute;
+    right: 20px;
+}
+
+.list_item:nth-child(3){
+    position: relative;
+    top: 10px;
+}

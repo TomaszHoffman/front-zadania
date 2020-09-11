@@ -69,11 +69,16 @@ Każdy następny będzie 10px niżej od poprzedniego
 Pierwszy element niech znajdzie się 10px od górnej krawędzi okna.*/
 
 .list_item:nth-child(2){
-    position: absolute;
+    position: sticky;
     right: 20px;
+    bottom: 10px;
+
 }
 
-.list_item:nth-child(3){
-    position: relative;
-    top: 10px;
+.list_item:nth-child(2) :first-child{
+    position: sticky;
+    margin-top: 10px;
+
 }
+
+

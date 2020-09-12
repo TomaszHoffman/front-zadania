@@ -75,6 +75,11 @@ Pierwszy element niech znajdzie się 10px od górnej krawędzi okna.*/
 
 }
 
+.list_item:nth-child(2) + :nth-child(n+2){
+    margin-top: 10px;
+}
+
+
 .list_item:nth-child(2) :first-child{
     position: sticky;
     margin-top: 10px;

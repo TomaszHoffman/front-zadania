@@ -62,7 +62,7 @@ będzie miała wartość: not-allowed). */
   list-style: none;
 }
   
-/* Nadaj każdemu elementowi <li>, który jest 2 w kolejności dzieckiem style, które sprawią, że:
+/* Zadanie 8 Nadaj każdemu elementowi <li>, który jest 2 w kolejności dzieckiem style, które sprawią, że:
 Znajdzie się 20px od prawej krawędzi okna
 Utrzyma tą pozycję niezależnie od pozycji scrolla
 Każdy następny będzie 10px niżej od poprzedniego
@@ -84,6 +84,23 @@ Pierwszy element niech znajdzie się 10px od górnej krawędzi okna.*/
     position: sticky;
     margin-top: 10px;
 
+}
+/* zadanie 9 Nadaj każdemu elementowi <ol> oraz ich dzieciom <li> style, które sprawią, że elementy <li>:
+ Wyświetlą się w jednym wierszu
+Będą miały dokładnie taką samą szerokość tak aby wypełnić całą szerokość okna
+W momencie dodania kolejnego elementu <li> ich szerokość się automatycznie zmieni i każdy z poprzednich warunków będzie nadal spełniony
+Będą miały po 10px marginesu wewnętrznego górnego oraz dolnego
+Będą miały czerwone obramowanie o szerokości 1px
+Będą miały wycentrowany tekst - w pionie i w poziomie */
+
+ol li{
+    display: inline-flex;
+    width: auto;
+    flex-grow: 1;
+    border: 1px solid red;
+    margin: top 10px bottom 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 

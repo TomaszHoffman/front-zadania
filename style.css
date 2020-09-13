@@ -103,4 +103,44 @@ ol li{
     align-items: center;
 }
 
+/* zadanie 10 Dodaj jeden tag HTML, który uznasz za słuszny i nadaj mu takie style aby wyglądał jak tzw. Hamburger dla menu na urządzeniach mobilnych. Element powinien mieć 2 stany:
+Domyślny:
+Aktywny, w momencie najechania kursorem, przejście powinno trwać 0.6s:*/
 
+.hamburger{
+  width: 40px;
+  height: 35px;
+  border: 0px;
+  border-top: 5px solid black;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  transition-duration: 0.6s; transform: linear;
+}
+
+.hamburger::before, .hamburger::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 5px solid black;
+  transform: translateY(10px);
+}
+
+.hamburger::after{
+  transform: translateY(25px);
+  transition-duration: 0.6s; transform: linear;
+}
+
+.hamburger:focus{
+  transform: rotate(45deg) translateY(5px);
+  border: none;
+
+}
+
+.hamburger:focus::after{
+  transform: rotate(-90deg) translateX(-10px) ;
+  
+}
